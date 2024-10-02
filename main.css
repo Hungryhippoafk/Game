@@ -1,0 +1,82 @@
+.game-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Horror Type', sans-serif;
+
+}
+
+#catchBtn {
+    position: absolute;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#catchBtn img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+#timer {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: "Creepster", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color:rgb(78, 5, 19);
+        
+
+}
+
+#loseScreen {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Covers the entire screen */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#loseImage {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#tryAgainBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(thumb-1920-552086.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+
+
+}

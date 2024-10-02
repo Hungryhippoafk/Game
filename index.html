@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>The Game</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='main.css'>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Game</h1>
+    </header>
+
+    <main>
+        <div class="game-container">
+            <button id="catchBtn">
+                <img src="pumpkin.png" alt="Pumpkin" id="pumpkin-img">
+            </button>
+            <div id="timer">20</div> <!--timer display -->
+        </div>
+
+        <!--Lose screen-->
+        <div id="loseScreen" style="display : none">
+            <img src="fail.png" alt="You Lose" id="loseImage">
+            <button id="tryAgainBtn">Try Again</button>
+        </div>
+    </main>
+
+    <script src='main.js'></script>
+</body>
+
+</html>
