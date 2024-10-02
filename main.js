@@ -45,7 +45,9 @@ button.addEventListener('click', () => {
         clearInterval(timer);
         clearInterval(interval);
         gameRunning = false;
+        startGame();
     }
+    
 });
 
 // Try again button restarts the game
